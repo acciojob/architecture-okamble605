@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styling for general layout and table structure */
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .imageContainer {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        td img {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .textContent {
+            width: 600px;
+        }
+
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <!-- Image Container -->
+    <div class="imageContainer">
+        <img src="architectural-image.jpg" alt="Architecture Image">
+    </div>
+
+    <!-- Table with Architectural Information -->
+    <table>
+        <tr>
+            <td width="200">
+                <img src="image1.jpg" alt="Image 1">
+            </td>
+            <td class="textContent" width="600">
+                <p>This is a description of the architectural structure in Image 1. It includes details about the design, style, and materials used in construction.</p>
+            </td>
+            <td width="200">
+                <img src="image2.jpg" alt="Image 2">
+            </td>
+        </tr>
+        <tr>
+            <td width="200">
+                <img src="image3.jpg" alt="Image 3">
+            </td>
+            <td class="textContent" width="600">
+                <p>This is a description of the architectural structure in Image 2. The focus is on the sustainability and innovative design elements of the building.</p>
+            </td>
+            <td width="200">
+                <img src="image4.jpg" alt="Image 4">
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
